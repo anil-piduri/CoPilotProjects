@@ -8,6 +8,7 @@ import org.springframework.context.ApplicationContext;
 public class DemoAppApplication {
 
 	public static void main(String[] args) {
+	  //Release 1 change test
 	  ApplicationContext springContainer = SpringApplication.run(DemoAppApplication.class, args);
 	  
 	  //Inversion Of Control and Dependency Injection. Let SpringBoot manage beans and their lifecycle
